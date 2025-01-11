@@ -1,0 +1,1 @@
+This repository demonstrates a common off-by-one error in C++ when iterating over a std::vector.  The bug arises from incorrectly using `i <= vec.size()` in the for loop condition.  The correct condition is `i < vec.size()`. The solution demonstrates the correct way to iterate, preventing out-of-bounds access.
